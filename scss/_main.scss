@@ -1,0 +1,16 @@
+@import "variables";
+
+body {
+    font-family: $fuente-principal;
+    color: $color-secundario;
+    background-color: $color-fondosecundario;
+    margin: $margin;
+    padding: $padding;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+    margin: $margin;
+    font-family: $fuente-secundaria;
+    color: $color-principal;
+}

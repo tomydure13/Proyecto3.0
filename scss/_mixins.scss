@@ -1,0 +1,23 @@
+@import "variables";
+
+@mixin responsive-image($border-radius: 0) {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: $border-radius;
+    display: block; 
+
+    @media (max-width: $breakpoint-sm) {
+        max-width: 100%;
+    }
+    @media (min-width: ($breakpoint-sm + 1)) and (max-width: $breakpoint-md) {
+        max-width: 90%;
+    }
+    
+    @media (min-width: ($breakpoint-md + 1)) and (max-width: $breakpoint-lg) {
+        max-width: 80%;
+    }
+    
+    @media (min-width: ($breakpoint-lg + 1)) {
+        max-width: 70%;
+    }
+}

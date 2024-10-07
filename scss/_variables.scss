@@ -1,7 +1,8 @@
 //colores
 $color-principal:rgba(255, 0, 0, 0.637);
-$color-secundario:rgb(255, 255, 255)41;
+$color-secundario:white;
 $color-fondo:rgb(0, 0, 0);
+$color-fondosecundario:rgb(24, 24, 24);
 
 //fuentes
 $fuente-principal:"Bebas", sans-serif;
@@ -9,7 +10,7 @@ $fuente-secundaria:"Kay Pho Du", serif;
 
 //espaciado
 $padding: 2rem;
-$margin: 1rem;
+$margin: 2.5rem;
 
 //breakpoints para distintos dispositivos 
 $breakpoint-sm: 576px;

@@ -1,0 +1,41 @@
+@import "variables";
+
+
+header {
+    background-color: $color-fondo;
+    color: $color-principal;
+
+    .navbar {
+        padding: $padding;
+
+        .navbar-brand {
+            font-family: $fuente-secundaria;
+            font-size: 1.5em;
+            color: $color-principal;
+            text-decoration: none;
+        }
+
+        .navbar-nav {
+            .nav-link {
+                color: $color-principal;
+                transition: color 0.3s;
+
+                &.active {
+                    color: $color-principal;
+                }
+
+                &:hover {
+                    color: $color-principal;
+                }
+            }
+        }
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        .navbar-toggler-icon {
+            background-color: $color-principal;
+        }
+    }
+}

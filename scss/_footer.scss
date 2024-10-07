@@ -1,0 +1,24 @@
+@import "variables";
+
+footer {
+    background-color: $color-fondo;
+    color: $color-secundario;
+    padding: 20px;
+    text-align: center;
+    font-family: $fuente-secundaria;
+    p{
+        margin-bottom: 15px;
+        font-size: 1.1em;
+        font-weight: 300;
+    }
+    .boton{
+        background-color: $color-principal;
+    color: $color-secundario;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    }
+}
